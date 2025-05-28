@@ -3,7 +3,7 @@ using Raylib_cs;
 
 namespace GameTest
 {
-    public class Player
+    public class Player : ITextureLoading
     {
         public Vector2 Position;
         public float Speed = 4f;

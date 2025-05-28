@@ -4,7 +4,7 @@ using Raylib_cs;
 
 namespace GameTest
 {
-    public class NPC
+    public class NPC : ITextureLoading
     {
         public Vector2 Position;
         private Texture2D texture;
@@ -14,6 +14,9 @@ namespace GameTest
         private int frameWidth = 32;
         private int frameHeight = 32;
         private int maxFrames = 6;
+
+        public string spritePath;
+        private bool isTextureLoaded = true;
 
         private int currentFrame = 0;
         private int frameCounter = 0;
@@ -28,7 +31,8 @@ namespace GameTest
         public NPC(float x, float y, string spritePath)
         {
             Position = new Vector2(x, y);
-            texture = Raylib.LoadTexture(spritePath);
+            this.spritePath = spritePath;
+            texture = Raylib.LoadTexture(this.spritePath);
             sourceRec = new Rectangle(0, 0, frameWidth, frameHeight);
         }
 
@@ -61,9 +65,32 @@ namespace GameTest
             Raylib.DrawTexturePro(texture, sourceRec, destRec, Vector2.Zero, 0f, Raylib_cs.Color.White);
         }
 
-        public void Unload()
+        private void doLoad()
+        {
+            texture = Raylib.LoadTexture(spritePath);
+        } 
+
+        private void doUnload()
         {
             Raylib.UnloadTexture(texture);
+        }
+
+        public void Load()
+        {
+            if (!isTextureLoaded)
+            {
+                doLoad();
+                isTextureLoaded = true;
+            }
+        }
+
+        public void Unload()
+        {
+            if (isTextureLoaded)
+            {
+                doUnload();
+                isTextureLoaded = false;
+            }
         }
     }
 }

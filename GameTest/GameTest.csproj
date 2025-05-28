@@ -18,8 +18,4 @@
 		</Content>
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Assets\Audio\SFX\" />
-	</ItemGroup>
-
 </Project>

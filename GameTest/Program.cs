@@ -2,7 +2,6 @@
 using Raylib_cs;
 using static Raylib_cs.Color;
 using GameTest;
-using System.Linq.Expressions;
 class Program
 {
     static void Main()
@@ -12,6 +11,7 @@ class Program
 
         Raylib.SetConfigFlags(ConfigFlags.ResizableWindow);
         Raylib.InitWindow(screenWidth, screenHeight, "Sleeping in the Dream");
+        Raylib.InitAudioDevice();
         Raylib.SetTargetFPS(60);
 
         GameState state = GameState.Menu;
@@ -24,6 +24,7 @@ class Program
             Zoom = 1f,
             Rotation = 0f
         };
+        Sound click = Raylib.LoadSound("Assets/Audio/SFX/click.wav");
 
         while (!Raylib.WindowShouldClose() && state != GameState.Quit)
         {
@@ -64,6 +65,7 @@ class Program
                     Raylib.CheckCollisionPointRec(mousePos, backButton))
                 {
                     state = GameState.Menu;
+                    Raylib.PlaySound(click);
                 }
 
                 Raylib.BeginMode2D(camera);
