@@ -1,0 +1,29 @@
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.AssemblyInfo.cs
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Game.exe
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Game.deps.json
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Game.runtimeconfig.json
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Game.dll
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Game.pdb
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.dll
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\refint\Game.dll
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.pdb
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\Game.genruntimeconfig.cache
+C:\Users\User\Downloads\Alone\Game\obj\Debug\net8.0-windows\ref\Game.dll
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\NPCs\Dropsy.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Error.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Player\The Player.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Player\ThePlayer_Down.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Player\ThePlayer_Idle.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Player\ThePlayer_Left.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Player\ThePlayer_Right.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Player\ThePlayer_Up.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Tiles\map.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Tiles\map1.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Tiles\New Piskel.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Tiles\Mappy.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\Tiles\Haus1.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\UI\Menu.png
+C:\Users\User\Downloads\Alone\Game\bin\Debug\net8.0-windows\Assets\NPCs\Enemy.png
